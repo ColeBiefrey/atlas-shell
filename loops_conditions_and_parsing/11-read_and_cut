@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+##this script reads out the content of a user file in /passwd
+while IFS= read -r line
+do
+	echo "$line" | cut -f 1,3,6 -d ':'
+done < "/etc/passwd"
