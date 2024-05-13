@@ -1,4 +1,4 @@
-#!/user/bin/env bash
+#!/usr/bin/env bash
 ##This script uses a combination of a while loop and a longer if statement to display different itterations of text
 ## ...at certain points
 x=1
