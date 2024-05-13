@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Directories in PATH: $(echo $PATH | tr ':' '\n' | wc -l)"
+echo $((`echo $PATH | grep -o ":/" | wc -l` + 1))
