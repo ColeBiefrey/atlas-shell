@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 ##This script gives specific information about the file 'school'
-##This script specifically uses both an if and an else with specific print outs for use cases
+##This script specifically uses both an if and an else with specific print outs at correct intervals
 file="school"
 if [ -e $file ]
 then
