@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#This script uses a simple for loop to repeat a text readout
+for _ in {1..10}
+do
+	echo "Best School"
+done
