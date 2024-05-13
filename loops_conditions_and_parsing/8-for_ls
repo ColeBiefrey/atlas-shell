@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+##this script displays the current directory in a list format with specific data using a for loop
+##this script also ignores hidden files
+for i in *
+do
+	echo "$i" | cut -f 2- -d '-'
+done
