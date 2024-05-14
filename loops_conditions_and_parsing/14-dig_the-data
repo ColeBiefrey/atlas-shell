@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+##This script will group visitors by IP and HTTP status codes, and display the data to be parsed and read
+##This script specifically is using exact formats for the purposes of both learning and understanding
+##the basics of how this works in addition to simply parsing apache style server logs
+awk -F' ' '{ print $1 " " $9 }' apache-access.log | sort | uniq -c | sort -nr
