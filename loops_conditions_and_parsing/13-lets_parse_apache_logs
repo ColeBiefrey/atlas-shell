@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+##This script displays visitor IP's as well as HTTP status codes from Apache server log files for use
+##...in debugging and learning how to parse log files accurately.
+awk -F' ' '{ print $1 " " $9 }' apache-access.log
